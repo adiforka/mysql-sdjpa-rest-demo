@@ -1,0 +1,7 @@
+/target/
+/HELP.md
+/mvnw
+/mvnw.cmd
+/mysql-spring-jpa-rest-demo.iml
+/.idea/
+/.mvn/
