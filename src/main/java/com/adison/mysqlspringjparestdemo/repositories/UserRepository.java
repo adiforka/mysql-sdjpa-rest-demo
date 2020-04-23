@@ -1,6 +1,6 @@
-package repositories;
+package com.adison.mysqlspringjparestdemo.repositories;
 
-import model.User;
+import com.adison.mysqlspringjparestdemo.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {

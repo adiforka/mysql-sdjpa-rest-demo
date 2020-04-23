@@ -1,10 +1,10 @@
-package controllers;
+package com.adison.mysqlspringjparestdemo.controllers;
 
-import model.User;
+import com.adison.mysqlspringjparestdemo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import repositories.UserRepository;
+import com.adison.mysqlspringjparestdemo.repositories.UserRepository;
 
 @Controller
 //is the default mapping for all HTTP ops (excluding the ones explicitly specified, such as below)

@@ -1,4 +1,4 @@
-package model;
+package com.adison.mysqlspringjparestdemo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

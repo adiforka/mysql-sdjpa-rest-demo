@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"controllers", "model", "repositories"})
 public class MysqlSpringJpaRestDemoApplication {
 
 	public static void main(String[] args) {

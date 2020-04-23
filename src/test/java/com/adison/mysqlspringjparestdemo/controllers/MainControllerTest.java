@@ -1,13 +1,11 @@
-package controllers;
+package com.adison.mysqlspringjparestdemo.controllers;
 
-import model.User;
+import com.adison.mysqlspringjparestdemo.model.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import repositories.UserRepository;
+import com.adison.mysqlspringjparestdemo.repositories.UserRepository;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -17,11 +15,8 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.request;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
 class MainControllerTest {
-
 
     private MainController controller;
 
